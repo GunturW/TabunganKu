@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TabunganKu</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div class="top-wrapper">
+        <div class="money">
+            <div class="money-title">
+                Keuangan Anda Bulan <strong><span class="money-title-month">%Month%</span></strong> 
+            </div>
+
+            <div class="money-value">+ 1,000,000.00</div>
+
+            <div class="money-income clearfix">
+                <div class="money-income-text">Pemasukan</div>
+                <div class="right">
+                    <div class="money-income-value">+ 500,000.00</div>
+                </div>
+            </div>
+
+            <div class="money-expense clearfix">
+                <div class="money-expense-text">Pengeluaran</div>
+                <div class="right clearfix">
+                    <div class="money-expense-value">- 100,000.00</div>
+                    <div class="money-expense-percentage">35%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="value-wrapper">
+        <div class="values">
+            <div class="values-container">
+                <select class="values-type">
+                    <option value="inc" selected>+</option>
+                    <option value="exp">-</option>
+                </select>
+                <input type="text" class="values-description" placeholder="Input Keterangan Rincian Keuangan">
+                <input type="number" class="values-value" placeholder="Nominal Uang">
+                <button class="values-btn"><i class="fa fa-check-square"></i></button>
+            </div>
+        </div>
+
+        <div class="container clearfix">
+            <div class="income">
+                <h2 class="income-title">Pemasukan</h2>
+
+                <div class="income-list">
+                    <!--
+                    <div class="item clearfix" id="income-0">
+                        <div class="item-description">%description%</div>
+                        <div class="right clearfix">
+                            <div class="item-value">%value%</div>
+                            <div class="item-delete">
+                                <button class="item-delete-btn">
+                                    <i class="fa fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item clearfix" id="income-1">
+                        <div class="item-description">%description%</div>
+                        <div class="right clearfix">
+                            <div class="item-value">%value%</div>
+                            <div class="item-delete">
+                                <button class="item-delete-btn"><i class="fa fa-trash"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+
+            <div class="expense">
+                <h2 class="expense-title">Pengeluaran</h2>
+
+                <div class="expense-list">
+
+                    <!--
+                    <div class="item clearfix" id="expense-0">
+                        <div class="item-description">%description%</div>
+                        <div class="right clearfix">
+                            <div class="item-value">%value%</div>
+                            <div class="item-percentage">30%</div>
+                            <div class="item-delete">
+                                <button class="item-delete-btn"><i class="fa fa-trash"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item clearfix" id="expense-1">
+                        <div class="item-description">%description%</div>
+                        <div class="right clearfix">
+                            <div class="item-value">%value%</div>
+                            <div class="item-percentage">30%</div>
+                            <div class="item-delete">
+                                <button class="item-delete-btn"><i class="fa fa-trash"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

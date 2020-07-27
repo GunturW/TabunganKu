@@ -1,0 +1,145 @@
+@media only screen and (max-width: 600px){
+
+    .money{
+        position: absolute;
+        width: 85%;
+        top: 50%;
+        left: 50%;
+        margin: 0 auto;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    .money-title{
+        font-size: 18px !important;
+    }
+    .money-value{
+        font-size: 32px;
+    }
+    .money-income,
+    .money-expense{
+        font-size: 12px;
+    }
+
+    .money-income-text,
+    .money-expense-text{
+        float: left;
+        font-size: 12px !important;
+        color: rgb(47, 41, 41);
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+    .money-expense-percentage{
+        width: 20px;
+        margin-top: -1px;
+    }
+
+    
+    .values{
+        width: 100%;
+        margin-top: -10%;
+    }
+    .values-type{
+        margin-bottom: 7px;
+        height: 30px;
+        margin-left: 5%;
+    }
+    .values-description,
+    .values-value{
+        height: 30px;
+        margin-bottom: 8px;
+    }
+
+    .values-description{
+        width: 75%;
+       font-size: 10px;
+    }
+
+    .values-value{
+        width: 55%;
+        font-size: 10px;
+    }
+
+    .values-btn{
+        font-size: 32px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        background-color: rgba(255, 254, 254, 0.8);
+        
+    }
+    .income-title,
+    .expense-title{
+        font-size: 14px !important;
+    }
+
+    .income{
+        margin-left: 0;
+    }
+
+    .item{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+
+    .money-title{
+        font-size: 22px;
+    }
+    .money-value{
+        font-size: 32px;
+    }
+    .money-income-text,
+    .money-expense-text{
+        font-size: 15px;
+    }
+    .values{
+        width: 100%;
+    }
+    .values-type{
+        margin-bottom: 7px;
+        height: 30px;
+        margin-left: 2%;
+    }
+    .values-description,
+    .values-value{
+        height: 30px;
+        margin-bottom: 8px;
+    }
+
+    .values-description{
+        width: 60%;
+    }
+    .values-value{
+        width: 40%;
+        margin-left: -5%;
+    }
+    .values-btn{
+        font-size: 32px;
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        
+    }
+    .income-title,
+    .expense-title{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .income{
+        margin-left: 0;
+        width: 100%;
+    }
+    .expense{
+        width: 100%;
+    }
+    .item{
+        font-size: 14px;
+    }
+}
